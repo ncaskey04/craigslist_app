@@ -11,7 +11,7 @@ describe "scrapper" do
   end
 
   describe "filter_links" do
-    it "should here is an example of using the befor each data" do
+    it "should here is an example of using the before each data" do
       rows = @doc.css(".row")
       rows.each do |row|
         puts row.content
